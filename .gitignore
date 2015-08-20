@@ -1,0 +1,15 @@
+ut .idea/
+.classpath
+.settings
+.project
+target
+.externalToolBuilders
+.pmd
+.idea
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+# end of OS generated files #
+#############################

@@ -1,0 +1,23 @@
+{
+  "name": "jsdataviz",
+  "version": "0.1",
+  "description": "d3 simple charts",
+  "main": [
+    "jsdataviz.js",
+    "src/jsdataviz.css"
+  ],
+  "dependencies": {
+    "d3": "~3.3.13"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src/charts/*",
+    "src/*.js",
+    "lib",
+    "examples"
+  ]
+}

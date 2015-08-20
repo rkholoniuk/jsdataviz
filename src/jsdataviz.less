@@ -1,0 +1,41 @@
+@import 'mixins.less';
+
+.linechart {
+  .line {
+    fill: none;
+    stroke: #4682b4;
+    stroke-width: 1.5px;
+  }
+  &.axis text {
+    font: 10px sans-serif;
+    fill: #666;
+    pointer-events: none;
+    &.black {
+      fill: #000;
+    }
+  }
+  .axis text {
+    font: 10px sans-serif;
+  }
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #4682b4;
+    stroke-width: 1.5px;
+  }
+  body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(248, 248, 248)
+  }
+}
+
+
+
+
+
+
