@@ -11,27 +11,9 @@ module.exports = function(grunt) {
       },
       dist: {
         src: [
-          'src/begin.js',
           'src/core.js',
-          'src/charts/linechart.js',
-          'src/charts/simplebarchart.js',
-          'src/charts/groupedbarchart.js',
-          'src/charts/groupedcolumnchart.js',
-          'src/charts/multiplebarchart.js',
-          'src/charts/piechartchart.js',
-          'src/charts/donutchart.js',
-          'src/charts/butterflychart.js',
-          'src/charts/geochart.js',
-          'src/charts/scatterchart.js',
-          'src/charts/heatmapchart.js',
-          'src/charts/dendrogramchart.js',
-          'src/charts/areachart.js',
-          'src/charts/bulletchart.js',
-          'src/charts/sunburstpartitionchart.js',
-          'src/charts/treemapchart.js',
-          'src/charts/forceloyout.js',
-          'src/controls/directedgraph.js',
-          'src/end.js'
+          'src/charts/LineChart.js',
+          'src/charts/BarChart.js'
         ],
         dest: 'jsdataviz.js'
       }

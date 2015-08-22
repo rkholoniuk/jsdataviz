@@ -1,6 +1,6 @@
 @import 'mixins.less';
 
-.linechart {
+.line-chart {
   .line {
     fill: none;
     stroke: #4682b4;
@@ -13,9 +13,6 @@
     &.black {
       fill: #000;
     }
-  }
-  .axis text {
-    font: 10px sans-serif;
   }
   .axis path,
   .axis line {
@@ -31,6 +28,23 @@
     -ms-user-select: none;
     user-select: none;
     background-color: rgb(248, 248, 248)
+  }
+}
+
+.bar-chart {
+  width: 100%;
+  & .axis {
+    path, line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+    text {
+      font: 10px sans-serif;
+    }
+  }
+  & .bar {
+    fill: #4682b4;
   }
 }
 
