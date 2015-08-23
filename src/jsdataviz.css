@@ -3,30 +3,25 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 .line-chart .line {
   fill: none;
   stroke: #4682b4;
   stroke-width: 1.5px;
 }
-
 .line-chart.axis text {
   font: 10px sans-serif;
   fill: #666;
   pointer-events: none;
 }
-
 .line-chart.axis text.black {
   fill: #000;
 }
-
 .line-chart .axis path,
 .line-chart .axis line {
   fill: none;
   stroke: #4682b4;
   stroke-width: 1.5px;
 }
-
 .line-chart body {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -36,22 +31,18 @@
   user-select: none;
   background-color: #f8f8f8;
 }
-
 .bar-chart {
   width: 100%;
 }
-
 .bar-chart .axis path,
 .bar-chart .axis line {
   fill: none;
   stroke: #000;
   shape-rendering: crispEdges;
 }
-
 .bar-chart .axis text {
   font: 10px sans-serif;
 }
-
 .bar-chart .bar {
   fill: #4682b4;
 }

@@ -13,7 +13,8 @@ module.exports = function(grunt) {
         src: [
           'src/core.js',
           'src/charts/LineChart.js',
-          'src/charts/BarChart.js'
+          'src/charts/BarChart.js',
+          'src/charts/PieChart.js'
         ],
         dest: 'jsdataviz.js'
       }
