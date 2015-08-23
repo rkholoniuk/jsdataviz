@@ -5,7 +5,7 @@
  */
 charts.LineChart = function(options) {
   var __ = options || {};
-  __.CHART_NAME = __.CHART_NAME || 'linechart';
+  __.CHART_NAME = __.CHART_NAME || 'line-chart';
   __.CONTAINER = __.CONTAINER || 'canvas-svg';
 
   __.WIDTH = __.WIDTH || 800;
@@ -50,7 +50,7 @@ charts.LineChart = function(options) {
 
   /**
    * Render the chart
-   * @param {!Array.<Array>} data A chart data.
+   * @param {!Array.<Array>} data chart data.
    */
   this.render = function(data) {
     var svg = d3.select('#' + __.CONTAINER).append("svg")
