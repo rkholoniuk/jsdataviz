@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+  <script src="../src/lib/d3.min.js"></script>
+  <script src="../jsdataviz.js"></script>
+  <link href="../jsdataviz.css" rel="stylesheet" type="text/css">
+</head>
+<div>
+  <div id="canvas-svg"></div>
+</div>
+<body>
+<script>
+  window.onload = function() {
+
+    (function() {
+
+
+      var data = [
+        {
+          "y": "Q4",
+          "x": 30
+        },
+        {
+          "y": "Q2",
+          "x": 30
+        },
+        {
+          "y": "Q3",
+          "x": 30
+        }
+      ];
+
+
+      var options = {};
+      var chart = new charts.DonutChart(options);
+      chart.render(data);
+
+    })();
+  };
+
+
+</script>
+</body>
+</html>
