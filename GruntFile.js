@@ -14,6 +14,7 @@ module.exports = function(grunt) {
           'src/core.js',
           'src/charts/LineChart.js',
           'src/charts/BarChart.js',
+          'src/charts/ColumnChart.js',
           'src/charts/PieChart.js',
           'src/charts/DonutChart.js'
         ],
